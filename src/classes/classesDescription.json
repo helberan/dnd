@@ -1,0 +1,50 @@
+[
+	{
+		"id": "barbarian",
+		"desc": "A fierce warrior who can enter a battle rage"
+	},
+	{
+		"id": "bard",
+		"desc": "An inspiring magician whose power echoes the music of creation"
+	},
+	{
+		"id": "cleric",
+		"desc": "A priestly champion who wields divine magic in service of a higher power"
+	},
+	{
+		"id": "druid",
+		"desc": "A priest of the Old Faith, wielding the powers of nature and adopting animal forms"
+	},
+	{
+		"id": "fighter",
+		"desc": "A master of martial combat, skilled with a variety of weapons and armor"
+	},
+	{
+		"id": "monk",
+		"desc": "A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection"
+	},
+	{
+		"id": "paladin",
+		"desc": "A holy warrior bound to a sacred oath"
+	},
+	{
+		"id": "ranger",
+		"desc": "A warrior who combats threats on the edges of civilization"
+	},
+	{
+		"id": "rogue",
+		"desc": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies"
+	},
+	{
+		"id": "sorcerer",
+		"desc": "A spellcaster who draws on inherent magic from a gift or bloodline"
+	},
+	{
+		"id": "warlock",
+		"desc": "A wielder of magic that is deprived from a bargain with an extraplanar entity"
+	},
+	{
+		"id": "wizard",
+		"desc": "A scholarly magic-user of manipulating the structures of reality"
+	}
+]

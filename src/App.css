@@ -36,19 +36,19 @@ nav ul li a {
 	color: black;
 }
 
-.Races {
+.Main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-.RaceCardsWrapper {
+.CardsWrapper {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 }
 
-.RaceCard {
+.Card {
 	display: flex;
 	width: 600px;
 	margin: 25px;
@@ -56,10 +56,10 @@ nav ul li a {
 	padding: 25px;
 }
 
-.RaceCard section {
+.Card section {
 	margin-top: 15px;
 }
 
-.RaceCard button {
+.Card button {
 	margin-top: 15px;
 }

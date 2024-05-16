@@ -10,7 +10,7 @@ import halfling from "./races-images/halfling.png";
 import human from "./races-images/human.png";
 import tiefling from "./races-images/tiefling.png";
 
-import { RaceCard } from "./RaceCard";
+import { Card } from "../Card";
 
 export const Races = () => {
 	const [races, setRaces] = useState();
@@ -38,14 +38,14 @@ export const Races = () => {
 	}, []);
 
 	return (
-		<div className="Races">
+		<div className="Main">
 			<h1>Races</h1>
 			{races === undefined ? (
 				<p>Loading data...</p>
 			) : (
-				<div className="RaceCardsWrapper">
+				<div className="CardsWrapper">
 					{races.map((race) => (
-						<RaceCard key={race.index} race={race} findDescription={findDescription} findImage={findImage} />
+						<Card key={race.index} detail={race} findDescription={findDescription} findImage={findImage} />
 					))}
 				</div>
 			)}
