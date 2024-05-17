@@ -1,23 +1,32 @@
 import "./App.css";
-import { Link, Outlet } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Races } from "./races/Races";
+import { Classes } from "./classes/Classes";
+import { Home } from "./Home";
+import { Navigation } from "./Navigation";
+import { RaceDetail } from "./races/RaceDetail";
+import { ClassDetail } from "./classes/ClassDetail";
+//import { Divider } from "./Divider";
 
 function App() {
 	return (
-		<div className="App">
-			<header>
-				<nav>
-					<ul>
-						<li>
-							<Link to="/races">Races</Link>
-						</li>
-						<li>
-							<Link to="/classes">Classes</Link>
-						</li>
-					</ul>
-				</nav>
-			</header>
-			<Outlet />
-		</div>
+		<Router>
+			<div className="App">
+				<header>
+					<Navigation />
+				</header>
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/races" element={<Races />} />
+					<Route path="/classes" element={<Classes />} />
+					<Route path="/races/:id" element={<RaceDetail />} />
+					<Route path="/classes/:id" element={<ClassDetail />} />
+				</Routes>
+				<footer>
+					<div className="footer-section"></div>
+				</footer>
+			</div>
+		</Router>
 	);
 }
 

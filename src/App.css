@@ -6,10 +6,44 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	height: 1000px;
 }
 
+/*LOADER*/
+svg {
+	width: 3.25em;
+	transform-origin: center;
+	animation: rotate4 2s linear infinite;
+}
+
+circle {
+	fill: none;
+	stroke: hsl(214, 97%, 59%);
+	stroke-width: 2;
+	stroke-dasharray: 1, 200;
+	stroke-dashoffset: 0;
+	stroke-linecap: round;
+}
+
+@keyframes dash4 {
+	0% {
+		stroke-dasharray: 1, 200;
+		stroke-dashoffset: 0;
+	}
+
+	50% {
+		stroke-dasharray: 90, 200;
+		stroke-dashoffset: -35px;
+	}
+
+	100% {
+		stroke-dashoffset: -125px;
+	}
+}
+/*LOADER*/
+
 header {
-	background-color: beige;
+	background-color: rgb(43, 43, 39);
 	width: -webkit-fill-available;
 }
 
@@ -33,13 +67,20 @@ nav ul li {
 
 nav ul li a {
 	text-decoration: none;
-	color: black;
+	color: whitesmoke;
+}
+
+nav ul li a:hover {
+	font-weight: bold;
+	color: whitesmoke;
 }
 
 .Main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 250px;
+	background: rgb(255, 255, 255);
 }
 
 .CardsWrapper {
@@ -52,8 +93,15 @@ nav ul li a {
 	display: flex;
 	width: 600px;
 	margin: 25px;
-	border: 1px black solid;
 	padding: 25px;
+	backdrop-filter: blur(16px) saturate(180%);
+	-webkit-backdrop-filter: blur(16px) saturate(180%);
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	-webkit-box-shadow: 12px 12px 27px -7px rgba(84, 84, 84, 1);
+	-moz-box-shadow: 12px 12px 27px -7px rgba(84, 84, 84, 1);
+	box-shadow: 12px 12px 27px -7px rgba(84, 84, 84, 1);
 }
 
 .Card section {
@@ -62,4 +110,46 @@ nav ul li a {
 
 .Card button {
 	margin-top: 15px;
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	font-size: medium;
+}
+
+.Card button:hover {
+	background-color: rgb(76, 76, 238);
+	color: whitesmoke;
+	font-weight: bold;
+}
+
+footer {
+	width: 100%;
+	margin-top: auto;
+}
+
+/*DIVIDER*/
+.custom-shape-divider-bottom-1715941725 {
+	width: 100%;
+	overflow: hidden;
+	line-height: 0;
+	transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1715941725 svg {
+	position: relative;
+	display: block;
+	width: calc(100% + 1.3px);
+	height: 150px;
+}
+
+.custom-shape-divider-bottom-1715941725 .shape-fill {
+	fill: #2b2b27;
+}
+/*DIVIDER*/
+
+.footer-section {
+	background-color: #2b2b27;
+	height: 200px;
 }

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Card } from "../Card";
+import { Loader } from "../Loader";
 import classesDescription from "./classesDescription.json";
 import barbarian from "./classes-images/barbarian.png";
 import bard from "./classes-images/bard.png";
@@ -57,7 +58,7 @@ export const Classes = () => {
 		<div className="Main">
 			<h1>Classes</h1>
 			{classes === undefined ? (
-				<p>Loading data...</p>
+				<Loader />
 			) : (
 				<div className="CardsWrapper">
 					{classes.map((professionClass) => (

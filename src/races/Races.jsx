@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Loader } from "../Loader";
 import racesDescription from "./racesDescription.json";
 import dragonborn from "./races-images/dragonborn.png";
 import dwarf from "./races-images/dwarf.png";
@@ -41,7 +42,7 @@ export const Races = () => {
 		<div className="Main">
 			<h1>Races</h1>
 			{races === undefined ? (
-				<p>Loading data...</p>
+				<Loader />
 			) : (
 				<div className="CardsWrapper">
 					{races.map((race) => (
