@@ -4,7 +4,7 @@ Simple DnD catalogue that lets you view information about DnD races and classes.
 
 ## Technology used
 
-- React - React Router, useState, useEffect, useParams
+- React - React Router, useState, useEffect, useParams, useLocation
 - API - https://www.dnd5eapi.co/
 
 
