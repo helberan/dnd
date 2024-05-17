@@ -79,8 +79,27 @@ nav ul li a:hover {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-bottom: 250px;
+	padding-bottom: 150px;
 	background: rgb(255, 255, 255);
+	padding-top: 25px;
+}
+
+.Main-section {
+	width: 1200px;
+	margin: 25px;
+	padding: 25px;
+	backdrop-filter: blur(16px) saturate(180%);
+	-webkit-backdrop-filter: blur(16px) saturate(180%);
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	-webkit-box-shadow: 12px 12px 27px -7px rgba(84, 84, 84, 1);
+	-moz-box-shadow: 12px 12px 27px -7px rgba(84, 84, 84, 1);
+	box-shadow: 12px 12px 27px -7px rgba(84, 84, 84, 1);
+}
+
+#dnd {
+	float: right;
 }
 
 .CardsWrapper {
@@ -108,7 +127,7 @@ nav ul li a:hover {
 	margin-top: 15px;
 }
 
-.Card button {
+button {
 	margin-top: 15px;
 	border-radius: 12px;
 	border: 1px solid rgba(209, 213, 219, 0.3);
@@ -118,10 +137,30 @@ nav ul li a:hover {
 	font-size: medium;
 }
 
-.Card button:hover {
+button:hover {
 	background-color: rgb(76, 76, 238);
 	color: whitesmoke;
 	font-weight: bold;
+}
+
+.Detail {
+	width: 600px;
+	margin: 25px;
+	margin-bottom: 40px;
+	padding: 25px;
+	backdrop-filter: blur(16px) saturate(180%);
+	-webkit-backdrop-filter: blur(16px) saturate(180%);
+	background-color: rgba(255, 255, 255, 0.75);
+	border-radius: 12px;
+	border: 1px solid rgba(209, 213, 219, 0.3);
+	-webkit-box-shadow: 12px 12px 27px -7px rgba(84, 84, 84, 1);
+	-moz-box-shadow: 12px 12px 27px -7px rgba(84, 84, 84, 1);
+	box-shadow: 12px 12px 27px -7px rgba(84, 84, 84, 1);
+}
+
+.DetailUpperHalf {
+	display: flex;
+	justify-content: space-between;
 }
 
 footer {

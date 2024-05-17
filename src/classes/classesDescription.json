@@ -2,61 +2,61 @@
 	{
 		"id": "barbarian",
 		"basePath": "classes",
-		"desc": "A fierce warrior who can enter a battle rage"
+		"desc": "A fierce warrior who can enter a battle rage."
 	},
 	{
 		"id": "bard",
 		"basePath": "classes",
-		"desc": "An inspiring magician whose power echoes the music of creation"
+		"desc": "An inspiring magician whose power echoes the music of creation."
 	},
 	{
 		"id": "cleric",
 		"basePath": "classes",
-		"desc": "A priestly champion who wields divine magic in service of a higher power"
+		"desc": "A priestly champion who wields divine magic in service of a higher power."
 	},
 	{
 		"id": "druid",
 		"basePath": "classes",
-		"desc": "A priest of the Old Faith, wielding the powers of nature and adopting animal forms"
+		"desc": "A priest of the Old Faith, wielding the powers of nature and adopting animal forms."
 	},
 	{
 		"id": "fighter",
 		"basePath": "classes",
-		"desc": "A master of martial combat, skilled with a variety of weapons and armor"
+		"desc": "A master of martial combat, skilled with a variety of weapons and armor."
 	},
 	{
 		"id": "monk",
 		"basePath": "classes",
-		"desc": "A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection"
+		"desc": "A master of martial arts, harnessing the power of the body in pursuit of physical and spiritual perfection."
 	},
 	{
 		"id": "paladin",
 		"basePath": "classes",
-		"desc": "A holy warrior bound to a sacred oath"
+		"desc": "A holy warrior bound to a sacred oath."
 	},
 	{
 		"id": "ranger",
 		"basePath": "classes",
-		"desc": "A warrior who combats threats on the edges of civilization"
+		"desc": "A warrior who combats threats on the edges of civilization."
 	},
 	{
 		"id": "rogue",
 		"basePath": "classes",
-		"desc": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies"
+		"desc": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies."
 	},
 	{
 		"id": "sorcerer",
 		"basePath": "classes",
-		"desc": "A spellcaster who draws on inherent magic from a gift or bloodline"
+		"desc": "A spellcaster who draws on inherent magic from a gift or bloodline."
 	},
 	{
 		"id": "warlock",
 		"basePath": "classes",
-		"desc": "A wielder of magic that is deprived from a bargain with an extraplanar entity"
+		"desc": "A wielder of magic that is deprived from a bargain with an extraplanar entity."
 	},
 	{
 		"id": "wizard",
 		"basePath": "classes",
-		"desc": "A scholarly magic-user of manipulating the structures of reality"
+		"desc": "A scholarly magic-user of manipulating the structures of reality."
 	}
 ]
