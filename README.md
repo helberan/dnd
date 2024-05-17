@@ -8,4 +8,10 @@ Simple DnD catalogue that lets you view information about DnD races and classes.
 - HTML, CSS, JS, JSX
 - API - https://www.dnd5eapi.co/
 
+## Plan for next development
+
+- Add responsiveness
+- Add search bar to browse the catalogue
+- Add more sub-pages - e.g. spells etc. (spells could be interesting for browsing implementation considering the amount of data)
+
 
